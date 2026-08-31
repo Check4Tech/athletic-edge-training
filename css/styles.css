@@ -371,33 +371,42 @@ p {
 
 .coaches h2 {
   color: var(--white);
-  margin-bottom: 3.5rem;
+  margin-bottom: 1rem;
 }
 
 .coach-card {
   position: relative;
   max-width: 44rem;
-  margin: 4.5rem auto 0;
+  margin: 10rem auto 0;
   background: var(--white);
   border-radius: 1.6rem;
-  padding: 6.5rem 2rem 2.2rem;
+  padding: 9.5rem 2rem 2.2rem;
   text-align: center;
   box-shadow: var(--shadow);
 }
 
-.coach-photo {
+.coach-photo-frame {
   position: absolute;
   left: 50%;
   top: 0;
-  width: 11.5rem;
-  height: 11.5rem;
-  object-fit: cover;
-  object-position: center 20%;
+  width: 17rem;
+  height: 17rem;
   border-radius: 50%;
-  border: 5px solid var(--white);
+  overflow: hidden;
+  border: 4px solid var(--white);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
   transform: translate(-50%, -50%);
   background: #111;
+}
+
+.coach-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: 0;
+  border-radius: 0;
+  transform: scale(1.04);
 }
 
 .coach-copy h3 {
@@ -1020,13 +1029,13 @@ address {
   }
 
   .coach-card {
-    margin-top: 5rem;
-    padding: 5.5rem 1.15rem 1.6rem;
+    margin-top: 8rem;
+    padding: 7.5rem 1.15rem 1.6rem;
   }
 
-  .coach-photo {
-    width: 8.5rem;
-    height: 8.5rem;
+  .coach-photo-frame {
+    width: 13rem;
+    height: 13rem;
   }
 
   .week-grid,
