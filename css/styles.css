@@ -136,6 +136,14 @@ p {
 .btn-ghost {
   border-color: rgba(255, 255, 255, 0.55);
   color: var(--white);
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.hero-actions .btn-ghost:hover,
+.hero-actions .btn-ghost:focus-visible {
+  background-color: color-mix(in srgb, var(--gold) 80%, white);
+  border-color: color-mix(in srgb, var(--gold) 80%, white);
+  color: var(--ink);
 }
 
 .site-header {
