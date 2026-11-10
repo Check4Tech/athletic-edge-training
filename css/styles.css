@@ -538,10 +538,15 @@ p {
 
 .day-time {
   font-family: var(--font-display);
-  letter-spacing: 0.04em;
-  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  font-size: 0.82rem;
+  line-height: 1.2;
   margin: 0 0 0.65rem;
   color: var(--gold);
+}
+
+.day-time time {
+  white-space: nowrap;
 }
 
 .day-card .day-class:last-child {
