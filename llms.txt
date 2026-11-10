@@ -29,12 +29,17 @@ Athletic Edge Training runs group workouts for ages 6 and up, individual and sma
 - Team workouts (youth PAL): $25 per athlete per session, cap 10
 - Metabolic Reset: InBody-informed nutrition support; 2-minute quiz via on-site QR
 
-## Group class times
+## Class schedule
 
-- Sunday 10:00 AM — group training
-- Tuesday 6:15 PM — group training
-- Thursday 5:15 PM — group training
-- Saturday 11:30 AM — group training
+- Monday–Friday: 3:30 PM – 8:30 PM
+- Saturday–Sunday: 9:00 AM – 5:00 PM
+- Sunday: individual training and group training
+- Monday: individual training
+- Tuesday: individual training and group training
+- Wednesday: individual training
+- Thursday: individual training and group training
+- Friday: individual training
+- Saturday: individual training, Pilates, and group training
 - Individual training sessions available Sunday–Saturday
 
 ## Coach
